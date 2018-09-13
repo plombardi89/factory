@@ -8,6 +8,7 @@ click = "*"
 
 [dev-packages]
 factory = {editable = true, path = "."}
+pyinstaller = "*"
 
 [requires]
 python_version = "3.6"

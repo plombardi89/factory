@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3fbc09c1323cd3ef07220815d2974aeec7b077e91d01fd22f05f604e4c5c47b6"
+            "sha256": "f94848024ebedabfd29ea705cdef59de26b18f053849c106243b014fb7022d92"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -26,6 +26,13 @@
         }
     },
     "develop": {
+        "altgraph": {
+            "hashes": [
+                "sha256:d6814989f242b2b43025cba7161fc1b8fb487a62cd49c49245d6fd01c18ac997",
+                "sha256:ddf5320017147ba7b810198e0b6619bd7b5563aa034da388cea8546b877f9b0c"
+            ],
+            "version": "==0.16.1"
+        },
         "click": {
             "hashes": [
                 "sha256:29f99fc6125fbc931b758dc053b3114e55c77a6e4c6c3a2674a2dc986016381d",
@@ -37,6 +44,32 @@
         "factory": {
             "editable": true,
             "path": "."
+        },
+        "future": {
+            "hashes": [
+                "sha256:e39ced1ab767b5936646cedba8bcce582398233d6a627067d4c6a454c90cfedb"
+            ],
+            "version": "==0.16.0"
+        },
+        "macholib": {
+            "hashes": [
+                "sha256:ac02d29898cf66f27510d8f39e9112ae00590adb4a48ec57b25028d6962b1ae1",
+                "sha256:c4180ffc6f909bf8db6cd81cff4b6f601d575568f4d5dee148c830e9851eb9db"
+            ],
+            "version": "==1.11"
+        },
+        "pefile": {
+            "hashes": [
+                "sha256:4c5b7e2de0c8cb6c504592167acf83115cbbde01fe4a507c16a1422850e86cd6"
+            ],
+            "version": "==2018.8.8"
+        },
+        "pyinstaller": {
+            "hashes": [
+                "sha256:a5a6e04a66abfcf8761e89a2ebad937919c6be33a7b8963e1a961b55cb35986b"
+            ],
+            "index": "pypi",
+            "version": "==3.4"
         }
     }
 }

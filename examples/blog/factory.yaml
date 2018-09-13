@@ -1,0 +1,17 @@
+---
+environments:
+  develop: { }
+  prod:    { }
+
+tasks:
+  - name: package
+    requires: []
+
+  - name: package-test
+    requires: [package]
+
+  - name: deploy
+    requires: [package-test]
+
+  - name: deploy-test
+    requires: [deploy]
